@@ -16,10 +16,10 @@ public class HelloFX extends Application {
     	System.out.println("It started!");
         primaryStage.setTitle("Bradyn F Hello World Fall 2024");
         Button btn = new Button();
-        btn.setText("Display: 'Bradyn F says: Hello World!'");
+        btn.setText("Bradyn's Second Commit");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
-                System.out.println("Bradyn F says: Hello World!");
+                System.out.println("Bradyn's Second Commit");
             }
         });
         
